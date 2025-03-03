@@ -58,6 +58,45 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# Book a call button
+--------------------------------------------------------------*/
+.book-a-call {
+  display: inline-flex;  /* Align icon and text properly */
+  align-items: center;   /* Center align icon and text */
+  gap: 8px;             /* Space between icon and text */
+  background: #0563bb;
+  color: #fff;          /* Ensures text remains visible */
+  padding: 8px 16px;    /* Reduced padding for compact size */
+  font-size: 15px;      /* Keep text readable */
+  font-weight: 600;
+  border-radius: 50px;  /* Fully rounded corners */
+  text-decoration: none; /* Remove default underline */
+  transition: background 0.3s ease, transform 0.2s ease, color 0.3s ease;
+  margin-top: 16px;     /* Add spacing from LinkedIn & Instagram icons */
+}
+
+.book-a-call i {
+  font-size: 18px; /* Adjust icon size */
+  color: #fff;     /* Keep icon white */
+}
+
+/* Hover effect */
+.book-a-call:hover {
+  background: #0678e3;
+  color: #fff !important;  /* Ensure text remains white */
+}
+
+.book-a-call:hover i {
+  color: #fff !important;  /* Ensure icon remains white */
+}
+
+/* Active (Clicked) state */
+.book-a-call:active {
+  background: #04549e;
+  transform: scale(0.98);
+}
+
+/*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
 #preloader {
