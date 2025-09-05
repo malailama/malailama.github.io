@@ -67,3 +67,31 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
   height: auto;    /* preserve aspect ratio */
 }
 
+
+/* CSS for the Zip file download section. Can be removed when extension goes live */
+/* Center all CTA content */
+.cta .cta-inner {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5; /* ensures it's above background illustrations */
+  padding: 60px 20px; /* adds breathing room from illustration */
+}
+
+/* Center the ordered list */
+.cta .install-steps {
+  list-style-position: inside;
+  text-align: left; /* keep numbers aligned, but */
+  display: inline-block; /* center the block itself */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Chrome pill button spacing */
+.cta .chrome-pill {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+
