@@ -53,3 +53,17 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
   .cta-install-button .chrome-icon { width: 20px; height: 20px; }
 }
 
+/* Fixing the size of the Screenshot in the hero section */
+
+.hero-media-container img {
+  max-width: 100%; /* keep images constrained to their container */
+  height: auto;    /* maintain aspect ratio */
+}
+
+/* Fixing the size of the Screenshot in the feature section */
+
+.features-image img.features-box {
+  max-width: 100%; /* keep them inside the parent */
+  height: auto;    /* preserve aspect ratio */
+}
+
